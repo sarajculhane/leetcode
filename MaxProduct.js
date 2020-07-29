@@ -1,3 +1,6 @@
+/// 1464. Maximum Product of Two Elements in an Array
+/// https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
+
 var maxProduct = function(nums) {
     const maxIndx = nums.indexOf(Math.max(...nums))
     const maxNums = [Math.max(...nums), 0]
