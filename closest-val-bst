@@ -1,0 +1,18 @@
+// 270. Closest Binary Search Tree Value
+
+var closestValue = function(root, target) {
+    let arr = []
+    let minVal = 0, min = Infinity
+    
+    helper(arr, root)
+    
+    arr.forEach((val) => {
+        if(Math.abs(target - val) < min) {
+            min = Math.abs(target - val)
+            minVal = val
+        }
+    })
+    
+    return minVal
+    
+};
