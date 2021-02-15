@@ -1,6 +1,4 @@
-## Leetcode Solved Problems
-
-### Select Medium & Hard Solutions Shown Only 
+## Select Leetcode Solved Problems
 
 See leetcode account for overall stats
 
